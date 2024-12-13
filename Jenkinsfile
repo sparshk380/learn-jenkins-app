@@ -14,8 +14,7 @@ pipeline{
                     ls -la
                     node --version
                     npm --version
-                    npm ci
-                    sudo chown -R 115:122 /.npm
+                    npm install
                     npm run build
                     ls -la
                    '''
